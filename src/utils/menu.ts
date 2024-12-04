@@ -1,6 +1,6 @@
 const routes: Record<string, string | null> = {
   "new game": null,
-  "load game": "/loadGame",
+  "load game": "/load-game",
   settings: "/settings",
   credits: "/credits",
   exit: null,
