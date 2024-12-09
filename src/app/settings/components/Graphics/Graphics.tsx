@@ -10,7 +10,7 @@ export default function Graphics() {
     <div className="relative flex flex-col gap-4 p-8">
       <div className="absolute inset-0 bg-black-200 opacity-50" />
       <div className="relative z-10 flex flex-col md:gap-8">
-        <Typography variant="heading" color="text-gray-200">
+        <Typography variant="heading" color="text-gray-200" uppercase>
           Display
         </Typography>
         <div className="flex flex-col md:gap-8 md:p-5">

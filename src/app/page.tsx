@@ -13,7 +13,9 @@ export default function Home() {
                 key={item}
                 className="text-gray-200 cursor-pointer hover:bg-gradient-to-r from-red-950 from-70% to-transparent rounded-xl px-8 py-4 transition-all duration-300 sm:hover:scale-105"
               >
-                <Typography variant="menu">{item}</Typography>
+                <Typography variant="menu" uppercase>
+                  {item}
+                </Typography>
               </li>
             </Link>
           ) : (
@@ -21,7 +23,7 @@ export default function Home() {
               key={item}
               className="text-gray-200 cursor-not-allowed rounded-xl px-8 py-4 transition-all duration-300 blur-sm "
             >
-              <Typography key={item} variant="menu">
+              <Typography key={item} variant="menu" uppercase>
                 {item}
               </Typography>
             </li>

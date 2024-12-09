@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 import colors from "./src/theme/colors";
 import images from "./src/theme/images";
+
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -18,5 +19,4 @@ export default {
       },
     },
   },
-  plugins: [],
 } satisfies Config;
